@@ -1,4 +1,4 @@
-# Editor.
+# Текстовый редактор для ОС Аврора на базе кода приложения Harbour-Editor для Sailfish OS
 Description is in progress...
 
 Rules for translation
