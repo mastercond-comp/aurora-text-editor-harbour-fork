@@ -3,4 +3,7 @@ Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=harbour-editor
 Exec=harbour-editor
-Name=Editor.
+Name=Редактор документов
+
+[X-Application]
+Permissions=Documents
