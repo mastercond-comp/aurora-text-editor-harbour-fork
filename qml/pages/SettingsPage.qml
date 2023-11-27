@@ -260,7 +260,7 @@ Page {
                 id: editorT
                 anchors { left: parent.left; right: parent.right; leftMargin: Theme.paddingSmall; rightMargin: Theme.paddingSmall }
                 checked: editorDefault
-                text: "Editor."
+                text: "Редактор"
                 width: parent.width/2
                 description: qsTr("Turn off to enable default notes")
 
@@ -308,28 +308,28 @@ Page {
 
                 menu: ContextMenu {
                     MenuItem {
-                        text: "Auto"
+                        text: "Авто"
                         onClicked: {
                             encRegion = text;
-                            comb_encRegion.description="Automatic";
+                            comb_encRegion.description="Автоматически";
                         }
                     }
                     MenuItem {
-                        text: "Manual"
+                        text: "Указать вручную"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="";
                         }
                     }
                     MenuItem {
-                        text: "Unicode"
+                        text: "Юникод"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="utf-8, utf-16, utf-32"}
                     // utf-8,utf-16,utf-32
                    }
                     MenuItem {
-                        text: "Western Europe"
+                        text: "Западная Европа"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="windows-1252,iso8859-1"}
@@ -337,7 +337,7 @@ Page {
                     }
 
                     MenuItem {
-                        text: "Central Europe"
+                        text: "Центральная Европа"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="windows-1250,iso8859-2"}
@@ -345,14 +345,14 @@ Page {
                     }
 
                     MenuItem {
-                        text: "Baltic"
+                        text: "Балтика"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="windows-1257,iso8859-4"}
                     // 1257,iso8859-4
                     }
                     MenuItem {
-                        text: "Middle East"
+                        text: "Ближний Восток"
                         onClicked: {
                             encRegion = text;
                             comb_encRegion.description="windows-1254,1255,1256"}
