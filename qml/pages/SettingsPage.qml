@@ -145,7 +145,7 @@ Page {
             SectionHeader { text: qsTr("Fonts and size") }
 
             TextField{
-                text: "Test your text here"
+                text: "Тестовый текст для проверки комфорности размера шрифта"
                 color: "white"
                 font.family: fontType
                 font.pixelSize: fontSize
@@ -226,11 +226,11 @@ Page {
                     if (tabType == "\t") {
                         value = "\\t";
                     } else if (tabType == "  ") {
-                        value = "2 spaces";
+                        value = "2 пробела";
                     } else if (tabType == "    ") {
-                        value = "4 spaces";
+                        value = "4 пробела";
                     } else if (tabType == "        ") {
-                        value = "8 spaces";
+                        value = "8 пробелов";
                     }
                 }
 
@@ -240,15 +240,15 @@ Page {
                         onClicked: tabType = "\t";
                     }
                     MenuItem {
-                        text: "2 spaces"
+                        text: "2 пробела"
                         onClicked: tabType = "  ";
                     }
                     MenuItem {
-                        text: "4 spaces"
+                        text: "4 пробела"
                         onClicked: tabType = "    ";
                     }
                     MenuItem {
-                        text: "8 spaces"
+                        text: "8 пробелов"
                         onClicked: tabType = "        ";
                     }
                 }
