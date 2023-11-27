@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>-Unsaved changes are saved in the file with ending &apos;~&apos; in the same dir where you placed your original file</source>
-        <translation>-Несохраненные изменения сохраняются в файле, заканчивающимся на &apos;~&apos;, расположенный в той же папке, что и оригинальный файл</translation>
+        <translation>-Несохраненные изменения сохраняются в файле, заканчивающимся на &apos;~&apos;, расположенном в той же папке, что и оригинальный файл</translation>
     </message>
     <message>
         <source>Star the repository at the github ☺ </source>
@@ -97,7 +97,7 @@
     </message>
     <message>
         <source>-You can copy the file path to the clipboard by selecting appropriate MenuItem in pulley menu</source>
-        <translation>-Вы можете скопировать файловый путь путем выбора соответствующего элемента в пулл-меню</translation>
+        <translation>-Вы можете скопировать путь к файлу выбрав соответствующий элемент в выдвигающемся меню</translation>
     </message>
     <message>
         <source>-Ancelad for tab icon, testing and help</source>
@@ -148,15 +148,15 @@
     <name>CoverPage</name>
     <message>
         <source>Lines: </source>
-        <translation>Строк:</translation>
+        <translation>Строк: </translation>
     </message>
     <message>
         <source>Words: </source>
-        <translation>Слов:</translation>
+        <translation>Слов: </translation>
     </message>
     <message>
         <source>Chars: </source>
-        <translation>Символов:</translation>
+        <translation>Символов: </translation>
     </message>
 </context>
 <context>
@@ -206,7 +206,7 @@
     </message>
     <message>
         <source>Error while opening/saving the file</source>
-        <translation>Ошибка открытия/сохранения файла</translation>
+        <translation>Ошибка открытия/сохранения файла :(</translation>
     </message>
     <message>
         <source>Highlighting enabled</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Text auto-saved in:</source>
-        <translation>Текст автоматически сохранен в:</translation>
+        <translation>Текст автоматически сохранен в: </translation>
     </message>
     <message>
         <source>Quick note.</source>
