@@ -70,7 +70,7 @@ Page {
             documentHandler.text = result[0];
             docencoding=result[1];
             outputNotifications.close()
-            outputNotifications.previewBody = qsTr("Opened file's encoding: [" + result[1] + "]");
+            outputNotifications.previewBody = qsTr("Кодировка открытого файла: [" + result[1] + "]");
             outputNotifications.publish()
             id_lblfile.text = filePath;
             setToHistory(filePath,result[1])
@@ -399,7 +399,7 @@ Page {
                     z: parent.z +1
                     font.bold: true
                     color: buttonsColor
-                    text: "Open the file with different encoding"
+                    text: "Открыт файл с отличающейся кодировкой"
                 }
                 TextField{
                     id:id_txtreencode
