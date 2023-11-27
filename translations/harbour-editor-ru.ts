@@ -148,15 +148,15 @@
     <name>CoverPage</name>
     <message>
         <source>Lines: </source>
-        <translation type="unfinished"></translation>
+        <translation>Строк:</translation>
     </message>
     <message>
         <source>Words: </source>
-        <translation type="unfinished"></translation>
+        <translation>Слов:</translation>
     </message>
     <message>
         <source>Chars: </source>
-        <translation type="unfinished"></translation>
+        <translation>Символов:</translation>
     </message>
 </context>
 <context>
@@ -194,27 +194,27 @@
     <name>FirstPage</name>
     <message>
         <source>File path copied to the clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Путь к файлу скопирован в буфер обмена</translation>
     </message>
     <message>
         <source>Document saved!</source>
-        <translation type="unfinished"></translation>
+        <translation>Документ успешно сохранен!</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Error while opening/saving the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка открытия/сохранения файла</translation>
     </message>
     <message>
         <source>Highlighting enabled</source>
-        <translation type="unfinished">Подстветка включена</translation>
+        <translation>Подстветка кода включена</translation>
     </message>
     <message>
         <source>Highlighting disabled</source>
-        <translation type="unfinished">Подсветка отключена</translation>
+        <translation>Подсветка кода отключена</translation>
     </message>
 </context>
 <context>
@@ -237,7 +237,7 @@
     </message>
     <message>
         <source>Delete history</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить историю</translation>
     </message>
 </context>
 <context>
@@ -260,15 +260,15 @@
     </message>
     <message>
         <source>R-only</source>
-        <translation type="unfinished">Чтение</translation>
+        <translation>Только чтение</translation>
     </message>
     <message>
         <source>Quick note</source>
-        <translation type="unfinished">Быстрая записка</translation>
+        <translation>Быстрая заметка</translation>
     </message>
     <message>
         <source>Highlight</source>
-        <translation type="unfinished">Подсветка</translation>
+        <translation>Подсветка кода</translation>
     </message>
 </context>
 <context>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Quick note.</source>
-        <translation>Быстрая записка.</translation>
+        <translation>Быстрая заметка.</translation>
     </message>
     <message>
         <source>Search</source>
@@ -309,127 +309,127 @@
     <name>SettingsPage</name>
     <message>
         <source>About</source>
-        <translation type="unfinished">О программе</translation>
+        <translation>О программе</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished">Настройки</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Внешний вид</translation>
     </message>
     <message>
         <source>Line numeration enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Нумерация строк включена</translation>
     </message>
     <message>
         <source>Line numeration disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Нумерация строк отключена</translation>
     </message>
     <message>
         <source>Dark Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Темная тема</translation>
     </message>
     <message>
         <source>Ambience Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Тема из Атмосферы</translation>
     </message>
     <message>
         <source>Custom button color</source>
-        <translation type="unfinished"></translation>
+        <translation>Свой цвет кнопок</translation>
     </message>
     <message>
         <source>Fonts and size</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт и его размер</translation>
     </message>
     <message>
         <source>Font size</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер шрифта</translation>
     </message>
     <message>
         <source>Tiny</source>
-        <translation type="unfinished"></translation>
+        <translation>Тонкий</translation>
     </message>
     <message>
         <source>Extra small</source>
-        <translation type="unfinished"></translation>
+        <translation>Очень маленький</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Маленький</translation>
     </message>
     <message>
         <source>Medium (default)</source>
-        <translation type="unfinished"></translation>
+        <translation>Средний (по умолчанию)</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Большой</translation>
     </message>
     <message>
         <source>Extra large</source>
-        <translation type="unfinished"></translation>
+        <translation>Очень большой</translation>
     </message>
     <message>
         <source>Huge</source>
-        <translation type="unfinished"></translation>
+        <translation>Гигантский</translation>
     </message>
     <message>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрифт:</translation>
     </message>
     <message>
         <source>Type of tab:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип вкладки:</translation>
     </message>
     <message>
         <source>Default text editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Текстовый редактор по умолчанию</translation>
     </message>
     <message>
         <source>Turn off to enable default notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Выключите, чтобы разрешить стандартные заметки</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Основное</translation>
     </message>
     <message>
         <source>Autosave</source>
-        <translation type="unfinished"></translation>
+        <translation>Автосохранение</translation>
     </message>
     <message>
         <source>If enabled text will be stored in files with postfix ~</source>
-        <translation type="unfinished"></translation>
+        <translation>Если включить - текст будет сохраняться в файлах с префиксом ~</translation>
     </message>
     <message>
         <source>File browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Браузер файлов</translation>
     </message>
     <message>
         <source>Show hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать скрытые файлы</translation>
     </message>
     <message>
         <source>Be careful to enable this option!</source>
-        <translation type="unfinished"></translation>
+        <translation>Будьте осторожны включая эту опцию!</translation>
     </message>
     <message>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Кодировка</translation>
     </message>
     <message>
         <source>Region:</source>
-        <translation type="unfinished"></translation>
+        <translation>Регион:</translation>
     </message>
     <message>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить настройки</translation>
     </message>
     <message>
         <source>Save settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить настройки</translation>
     </message>
 </context>
 </TS>
