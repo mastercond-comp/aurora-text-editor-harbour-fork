@@ -41,13 +41,7 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-editor-de.ts \
-	translations/harbour-editor-ru.ts \
-	translations/harbour-editor-sv.ts \
-	translations/harbour-editor-fr.ts \
-        translations/harbour-editor-es.ts \
-        translations/harbour-editor-nl.ts \
-        translations/harbour-editor-pl.ts
+TRANSLATIONS += translations/harbour-editor-ru.ts
 
 DISTFILES += \
     icons/172x172/harbour-editor.png \
