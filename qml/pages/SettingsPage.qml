@@ -384,9 +384,9 @@ Page {
             TextField{
                 id: encManual
                 anchors { left: parent.left; right: parent.right; leftMargin: Theme.paddingSmall; rightMargin: Theme.paddingSmall }
-                enabled: comb_encRegion.value == "Manual" ? true : false
+                enabled: comb_encRegion.value == "Указать вручную" ? true : false
                 text: encPreferred
-                label: "Only on Manual"
+                label: "Можно задать только в режиме *Указать вручную*"
                 onTextChanged: encPreferred = encManual.text;
             }
         //    Rectangle{
