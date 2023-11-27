@@ -31,27 +31,12 @@ Page {
                 text: qsTr("Version") + " " + Qt.application.version
             }
 
-            Button {
-                text: qsTr("Paypal donation - EURO")
-                anchors.horizontalCenter: parent.horizontalCenter
-                onClicked: {
-                    Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E8CL7QXGEMQEG");
-                }
-            }
-
-            Button {
-                text: qsTr("Paypal donation - RUB")
-                anchors.horizontalCenter: parent.horizontalCenter
-                onClicked: {
-                    Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6EWFULGLUZR8");
-                }
-            }
 
             Button {
                 text: qsTr("Source code")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
-                    Qt.openUrlExternally("https://github.com/GoAlexander/harbour-editor");
+                    Qt.openUrlExternally("https://github.com/mastercond-comp/aurora-text-editor-harbour-fork");
                 }
             }
 
@@ -107,39 +92,11 @@ Page {
             SectionHeader { text: qsTr("Translators") }
 
             AuthorRow {
-                author: "atlochowski"
-                myText: qsTr(" - Polish translation")
-            }
-
-            AuthorRow {
-                author: "carlosgonz"
-                myText: qsTr(" - Spanish translation")
-            }
-
-            AuthorRow {
-                author: "eson57"
-                myText: qsTr(" - Swedish translation")
-            }
-
-            AuthorRow {
-                author: "GoAlexander"
+                author: "GoAlexander, Stephan Ponomarenko"
                 myText: qsTr(" - Russian translation")
             }
 
-            AuthorRow {
-                author: "Quent-in"
-                myText: qsTr(" - French translation")
-            }
 
-            AuthorRow {
-                author: "rabauke"
-                myText: qsTr(" - German translation")
-            }
-
-            AuthorRow {
-                author: "Nathan Follens"
-                myText: qsTr(" - Dutch translation")
-            }
 
             VerticalScrollDecorator {}
         }
