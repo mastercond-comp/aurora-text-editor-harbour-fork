@@ -5,7 +5,7 @@
 - исправлен desktop-файл для использования в Аврора ОС. Доступ для чтения и записи файлов установлен только для папки Documents
 - местами исправлены зависимости в соответствии с https://developer.auroraos.ru/doc/software_development/reference/public_api
 
-- 
+
 Rules for translation
 ---------------------
 Translation of buttons on FirstPage has to be NOT longer than 7 symbols (better 4-5 symbols).  
