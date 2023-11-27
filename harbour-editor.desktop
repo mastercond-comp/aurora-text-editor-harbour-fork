@@ -2,8 +2,11 @@
 Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=harbour-editor
-Exec=harbour-editor
-Name=Редактор документов
+Exec=/usr/bin/harbour-editor
+Name=TextEditor
+Name[ru]=Текстовый редактор
 
 [X-Application]
 Permissions=Documents
+OrganizationName=ru.mastercond
+ApplicationName=texteditor
