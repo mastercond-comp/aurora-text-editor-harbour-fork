@@ -50,22 +50,14 @@ Page {
                 font { family: Theme.fontFamily; pixelSize: Theme.fontSizeSmall }
                 color: Theme.highlightColor
                 text: "<style>a:link { color: " + Theme.highlightColor + "; }</style><br/>" +
-                      qsTr("\"Editor.\" is feature-rich text/code editor!") +
+                      qsTr("\"Harbour-Editor\" is feature-rich text/code editor!") +
                       "<br/>" +
                       qsTr("License: GPLv3") +
                       "<br/>" +
                       "<br/>" +
-                      "<b>" + qsTr("If you want to support the developer:") +
-                      "<br/>" +
-                      qsTr("Make a donation (button above)") +
-                      "<br/>" +
-                      qsTr("or") +
-                      "<br/>" +
-                      qsTr("Star the repository at the github \u263a ") +  "</b>"  +
-                      "<br/>" +
                       "<br/>" +
                       qsTr("Special thanks:") +
-                      "<br/>" + qsTr("-eekkelund for save/load/autosave functions, source code and some dictionaries for syntax highlighting and feedback") +
+                      "<br/>" + "<br/>" + "<br/>" + qsTr("-eekkelund for save/load/autosave functions, source code and some dictionaries for syntax highlighting and feedback") +
                       "<br/>" + qsTr("-osanwe for very often consultations about qml code") +
                       "<br/>" + qsTr("-coderus for various tips and code") +
                       "<br/>" + qsTr("-Russian community for feedback and help") +
@@ -76,7 +68,7 @@ Page {
                       "<br/>" +
                       "<br/>" +
                       qsTr("Tips:")+
-                      "<br/>" +
+                      "<br/>" + "<br/>" + "<br/>" +
                       qsTr("-To 'Select all text' hold your finger until 3 vibrations") +
                       "<br/>" +
                       qsTr("-Unsaved changes are saved in the file with ending '~' in the same dir where you placed your original file") +
@@ -84,7 +76,7 @@ Page {
                       qsTr("-You can copy the file path to the clipboard by selecting appropriate MenuItem in pulley menu");
 
                 onLinkActivated: {
-                    Qt.openUrlExternally("https://github.com/GoAlexander/harbour-editor");
+                    Qt.openUrlExternally("https://github.com/mastercond-comp/aurora-text-editor-harbour-fork");
                 }
             }
 
@@ -93,7 +85,7 @@ Page {
 
             AuthorRow {
                 author: "GoAlexander, Stephan Ponomarenko"
-                myText: qsTr(" - Russian translation")
+                myText: qsTr(" - Russian translation"+ "<br/>" +  "<br/>");
             }
 
 
