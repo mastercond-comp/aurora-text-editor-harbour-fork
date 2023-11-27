@@ -4,6 +4,7 @@ import Nemo.Notifications 1.0 //org.nemomobile.notifications 1.0
 import io.thp.pyotherside 1.5
 import harbour.editor.documenthandler 1.0
 import QtGraphicalEffects 1.0
+import Nemo.FileManager 1.0
 import "../components"
 import "../components/pullMenus/rows"
 
